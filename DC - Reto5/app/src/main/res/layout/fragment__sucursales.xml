@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="usa.sesion15.dcjd.Vista.Fragment_Sucursales">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:fontFamily="cursive"
+                android:text="Sucursales"
+                android:textAlignment="center"
+                android:textColor="#030C40"
+                android:textColorHighlight="#2196F3"
+                android:textDirection="firstStrong"
+                android:textSize="48sp"
+                android:typeface="sans" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/openmapview"
+                android:layout_width="389dp"
+                android:layout_height="match_parent" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</FrameLayout>
